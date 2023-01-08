@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+
+    <link rel="stylesheet" href="welcomepage.css">
+    <scritp src="DB.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="jsonDB.js"></script>
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+    <div id="header"><div id="text">ToDo</div></div>
+    
+    <div id=ContLogBox>    
+        <div id="logBox">
+            <div><textarea maxlength="7" placeholder="login"></textarea></div>
+            <div><textarea style="-webkit-text-security:circle" maxlength="7" placeholder="pass"></textarea></div>
+            <button class="mod1" onclick="Validation()">Log In</button>
+    </div>
+
+
+
+
+
+
+    <div id=ContLogBox>    
+        <div id="logBox2">
+            <div><textarea id="reglog" maxlength="7" placeholder="login"></textarea></div>
+            <div><textarea id="regpass" style="-webkit-text-security:circle" maxlength="7" placeholder="pass"></textarea></div>
+            <button class="mod1" onclick="RegProtocol()">Register</button>
+        </div>
+    </div>
+        
+    
+
+
+
+
+    <div id="buttoncontainer" onclick="RegisterFunction()"><button class="mod2"id="butreg">Register</button></div>  
+    <div id="buttoncontainer" onclick="LogInFunction()"><button class="mod2" id="butlog">Log In</button></div>
+
+</body>
+
+</html>
